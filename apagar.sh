@@ -8,3 +8,4 @@ for i in $(cat $1) ; do
 done;
 
 # TODO: generar un resumen informando de lo realizado
+# Esto es todo
