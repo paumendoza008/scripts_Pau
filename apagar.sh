@@ -2,6 +2,12 @@
 
 # TODO: Aquí se deberá hacer un chequeo 
 
+if [ $# -ne 1 ]
+	then
+	echo "Error, por el número de parámetros"
+	exit
+fi
+
 for i in $(cat $1) ; do
 	#TODO: generar un aviso informando de lo que se está haciendo
 	ssh root@$i init 0
