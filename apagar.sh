@@ -14,6 +14,8 @@ for i in $(cat $1) ; do
 	ssh root@$i init 0
 done;
 
+echo "Ya está todo"
+
 
 
 # TODO: generar un resumen informando de lo realizado
